@@ -39,7 +39,7 @@ def words_to_number(text):
         "million": 1000000
     }
 
-    text = text.split() # pyright: ignore
+    text = text.split()
 
     result = 0
     buffer = 0

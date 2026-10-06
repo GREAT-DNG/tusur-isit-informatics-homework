@@ -1,6 +1,3 @@
-# Не проходит тесты
-# import truth_table # pyright: ignore
-
 def truth_table(n):
     if n == 0: return [()]
     table = []

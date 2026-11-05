@@ -65,8 +65,3 @@ class Date:
 
     def __str__(self):
         return f"{self.day:02}.{self.month:02}.{self.year}"
-
-d = Date(4, 11, 2026)
-print(d.day, d.month, d.year)
-d = Date(31, 12, 2025)
-print(d.day, d.month, d.year)

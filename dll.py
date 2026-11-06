@@ -69,10 +69,3 @@ class DoublyLinkedList:
                 pointer = pointer.prev
             result.append(pointer.data)
         return result
-
-l = DoublyLinkedList()
-l.prepend(0)
-print(l.to_list())
-l.delete(0)
-print(l.to_list())
-print(l.to_list_reverse())
